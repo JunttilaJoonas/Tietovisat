@@ -2,8 +2,8 @@ package joonaksenTietovisa;
 
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class JoonaksenPeli {
+    public void kaynnista() {
         Kayttoliittyma kayttis = new Kayttoliittyma();
         Scanner lukija = new Scanner(System.in);
 
