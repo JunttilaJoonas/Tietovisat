@@ -7,6 +7,15 @@ d) 3Files
 Mikä on sopiva tyyppi muuttujalle, jos käsiteltävät luvut ovat satoja miljoonia?
 long
 
+Kenen tekemä kysely tämä on? Vastaa pelkkä etunimi.
+joonas
+
+Mikä seuraavista on työkalu versiohallintaan?
+c) GitHub
+b) PornHub
+a) Gitter
+d) GitBook
+
 Mikä näistä kelpaa muuttujan tyypiksi?
 b) boolean
 a) let

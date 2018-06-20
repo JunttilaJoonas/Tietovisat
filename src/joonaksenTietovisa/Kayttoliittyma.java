@@ -9,20 +9,24 @@ public class Kayttoliittyma {
 
         System.out.println("Tervetuloa tietovisaan!");
         System.out.println();
-        System.out.print("Säännöt: ");
-        System.out.println("Oikeasta vastauksesta saa yhden pisteen, tyhjästä vastauksesta 0 ja väärästä -1.");
-        System.out.println("Huomioi, että kirjoitat isot ja pienet kirjaimet oikein!");
-        System.out.println("Kun olet valmis aloittamaan, paina Enter-näppäintä!");
+        System.out.println("===== SÄÄNNÖT ===== ");
+        System.out.println("Oikeasta vastauksesta saa yhden pisteen, tyhjästä vastauksesta 0.");
+        System.out.println("Väärästä vastauksesta menetät yhden pisteen!");
+        System.out.println("Kun olet valmis aloittamaan, paina Enter-näppäintä.");
         System.out.println();
         System.out.println("----------------------------------------");
 
-        if (lukija.nextLine().equals("")) {
-            while (kysymykset.kysymyslistanKoko()>0) {
-                kysymykset.kysy(lukija,laskuri);
-                kysytyt++;
-            }
+        while (true) {
+            if (lukija.nextLine().equals("")) {
+                while (kysymykset.kysymyslistanKoko()>0) {
+                    kysymykset.kysy(lukija,laskuri);
+                    kysytyt++;
+                }
 
-            System.out.println("Kiitos pelaamisesta! Lopullinen tuloksesi: " + laskuri.getPisteet() + "/" + kysytyt);
+                System.out.println("Kiitos pelaamisesta! Lopullinen tuloksesi: " + laskuri.getPisteet() + "/" + kysytyt);
+                break;
+            }
         }
+
     }
 }

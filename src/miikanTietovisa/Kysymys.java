@@ -49,7 +49,7 @@ public class Kysymys {
     }
 
     public String getOikea() {
-        return oikea;
+        return oikea.toLowerCase();
     }
 
 

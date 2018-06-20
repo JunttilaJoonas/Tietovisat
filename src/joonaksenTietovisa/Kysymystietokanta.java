@@ -28,7 +28,7 @@ public class Kysymystietokanta {
 
                 //lisätään kysymykseen oikea vastaus, ja lisätään se vaihtoehtojen listalle
                 String vastaus = tiedostonLukija.nextLine();
-                kysymys.lisaaVastaus(vastaus);
+                kysymys.lisaaVastaus(vastaus.toLowerCase());
                 kysymys.lisaaVaihtoehto(vastaus);
 
                 // lisätään kysymykseen vastausvaihtoehdot
@@ -59,7 +59,6 @@ public class Kysymystietokanta {
         Kysymys kysymys = kysymykset.get(0); // haetaan listan ensimmäinen kysymys
         System.out.println();
         System.out.println(kysymys.getKysymys()); //tulostetaan kysymys
-        System.out.println();
 
         // jos kysymyksessä on annettu vaihtoehtoja
         if (kysymys.getVaihtoehdot().size() > 1) {
@@ -70,10 +69,10 @@ public class Kysymystietokanta {
 
             // pyydetään vastaus pelaajalta
             System.out.println();
-            System.out.print("Vastauksesi (kirjoita vastausta vastaava kirjain): ");
+            System.out.print("Vastauksesi (kirjoita vastausta vastaava KIRJAIN): ");
 
             char kirjain = 'a';
-            String vastaus = lukija.nextLine();
+            String vastaus = lukija.nextLine().toLowerCase();
 
             if (vastaus.length()>0) {
                 kirjain =  vastaus.charAt(0);
@@ -100,7 +99,7 @@ public class Kysymystietokanta {
             // pyydetään vastaus pelaajalta
             System.out.println();
             System.out.print("Vastauksesi: ");
-            String vastaus = lukija.nextLine();
+            String vastaus = lukija.nextLine().toLowerCase();
 
             if (vastaus.equals("")) System.out.println(laskuri);
 

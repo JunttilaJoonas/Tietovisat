@@ -35,12 +35,22 @@ public class Paavalikko {
                 }
             }
             System.out.println("Haluatko jatkaa? y/n");
-            String vastaus = lukija.nextLine();
+            while (true) {
+                String vastaus = lukija.nextLine();
 
-            if (vastaus.equals("n")) {
-                System.out.println("Kiitos pelaamisesta ja mukavaa päivänjatkoa!");
+                if (vastaus.equals("n")) {
+                    System.out.println("Kiitos pelaamisesta ja mukavaa päivänjatkoa!");
+                    break outer;
+                }
+
+                else if (!vastaus.equals("y")) {
+                    System.out.println("Valitse y/n!");
+                    continue;
+                }
+
                 break;
             }
+
         }
     }
 }
