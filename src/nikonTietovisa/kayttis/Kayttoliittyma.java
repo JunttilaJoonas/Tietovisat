@@ -1,6 +1,6 @@
-package kayttis;
+package nikonTietovisa.kayttis;
 
-import kysymykset.Kysymys;
+import nikonTietovisa.kysymykset.Kysymys;
 
 import java.util.Collections;
 import java.util.List;

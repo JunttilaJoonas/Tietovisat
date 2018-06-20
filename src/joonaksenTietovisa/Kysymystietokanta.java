@@ -1,4 +1,4 @@
-package tietovisaparempi;
+package joonaksenTietovisa;
 
 import java.io.File;
 import java.util.*;
@@ -16,11 +16,11 @@ public class Kysymystietokanta {
         this.kysymykset.add(k);
     }
 
-    //luetaan kysymykset tiedostosta ja lisätään ne listalle
+    //luetaan nikonTietovisa.kysymykset tiedostosta ja lisätään ne listalle
     public void lisaaKysymyksetTiedostosta(String tiedosto){
         try (Scanner tiedostonLukija = new Scanner(new File(tiedosto))) {
 
-            // luetaan kysymykset
+            // luetaan nikonTietovisa.kysymykset
             while (tiedostonLukija.hasNextLine()) {
                 // luetaan kysymys ja luodaan sitä vastaava olio
                 String kysymyksenKysymys = tiedostonLukija.nextLine();

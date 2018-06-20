@@ -1,4 +1,4 @@
-package tietovisaparempi;
+package joonaksenTietovisa;
 
 public class PisteidenLaskija {
     private int pisteet;

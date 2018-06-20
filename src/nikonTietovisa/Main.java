@@ -1,8 +1,9 @@
-import kayttis.Kayttoliittyma;
-import kysymykset.Kysymys;
-import kysymykset.Kysymystenlukija;
+package nikonTietovisa;
 
-import java.util.ArrayList;
+import nikonTietovisa.kayttis.Kayttoliittyma;
+import nikonTietovisa.kysymykset.Kysymys;
+import nikonTietovisa.kysymykset.Kysymystenlukija;
+
 import java.util.List;
 
 public class Main {

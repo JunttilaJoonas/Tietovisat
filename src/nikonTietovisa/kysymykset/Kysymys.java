@@ -1,4 +1,4 @@
-package kysymykset;
+package nikonTietovisa.kysymykset;
 
 import java.util.List;
 

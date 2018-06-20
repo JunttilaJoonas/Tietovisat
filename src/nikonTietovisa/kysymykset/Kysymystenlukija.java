@@ -1,4 +1,4 @@
-package kysymykset;
+package nikonTietovisa.kysymykset;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 public class Kysymystenlukija {
 
-    public List<kysymykset.Kysymys> kysymyslista() {
-        ArrayList<kysymykset.Kysymys> kysymykset = new ArrayList<>();
-        try (Scanner tiedostonLukija = new Scanner(new File("kysymykset.txt"))) {
+    public List<nikonTietovisa.kysymykset.Kysymys> kysymyslista() {
+        ArrayList<nikonTietovisa.kysymykset.Kysymys> kysymykset = new ArrayList<>();
+        try (Scanner tiedostonLukija = new Scanner(new File("nikonTietovisa.kysymykset.txt"))) {
             while (tiedostonLukija.hasNextLine()) {
                 String kysymys = tiedostonLukija.nextLine();
                 List<String> vastausvaihtoehdot = new ArrayList<>();
@@ -19,7 +19,7 @@ public class Kysymystenlukija {
                     vastausvaihtoehdot.add(tiedostonLukija.nextLine());
                 }
                 int vastaus = Integer.parseInt(tiedostonLukija.nextLine());
-                kysymykset.Kysymys k = new kysymykset.Kysymys(kysymys, vastausvaihtoehdot, vastaus);
+                nikonTietovisa.kysymykset.Kysymys k = new nikonTietovisa.kysymykset.Kysymys(kysymys, vastausvaihtoehdot, vastaus);
                 kysymykset.add(k);
             }
         } catch (FileNotFoundException e) {
