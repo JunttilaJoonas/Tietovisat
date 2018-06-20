@@ -9,6 +9,8 @@ public class Kysymys {
     private String kysymysteksti;
     private List<String> vastaukset = new ArrayList<>();
     private String oikea;
+    private String merkit = "abcdefghijklmnopqrstuvwxyzåäö";
+
 
     Kysymys(String teksti) {
         int kyssarinIndeksi = teksti.indexOf("?");
@@ -22,27 +24,28 @@ public class Kysymys {
     }
 
     public boolean onkoOikein(char vastaus) {
-        if (vastaus == 'a') {
-            if (vastaukset.get(0).equals(this.oikea)) {
-                return true;
-            }
-        } else if (vastaus == 'b') {
-            if (vastaukset.get(1).equals(this.oikea)) {
-                return true;
-            }
-        } else if (vastaus == 'c') {
-            if (vastaukset.get(2).equals(this.oikea)) {
-                return true;
+
+
+        for (int i = 0; i < merkit.length(); i++) {
+            if (vastaus == merkit.charAt(i)){
+                if (vastaukset.get(i).equals(this.oikea)){
+                    return true;
+                }
             }
         }
         return false;
     }
 
     public void tulostaKysymys() {
-        System.out.println(kysymysteksti +
-                "\ta) " + vastaukset.get(0) +
-                "\tb) " + vastaukset.get(1) +
-                "\tc) " + vastaukset.get(2));
+
+        StringBuilder latoja = new StringBuilder();
+        latoja.append(kysymysteksti);
+        for (int i = 0; i < vastaukset.size(); i++) {
+            latoja.append("\t" + merkit.charAt(i) + ") " + vastaukset.get(i));
+        }
+
+        System.out.println(latoja);
+
     }
 
     public String getOikea() {

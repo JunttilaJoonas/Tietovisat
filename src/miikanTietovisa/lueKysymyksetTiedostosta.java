@@ -21,7 +21,7 @@ public class lueKysymyksetTiedostosta {
             String rivi;
             int i = 0;
             outer:
-            while ((rivi = br.readLine()) != null) { //luetaan rivi kerrallaan
+            while ((rivi = br.readLine()) != null) { //luetaan rivi kerrallaan, ohjerivit pois
                 if (i < 3) {
                     i++;
                     continue;

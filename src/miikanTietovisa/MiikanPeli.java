@@ -29,7 +29,7 @@ public class MiikanPeli {
             kysymys.tulostaKysymys();
             char vastaus2;
             while (true) {
-                String vastaus = lukija.next().toLowerCase();
+                String vastaus = lukija.nextLine().toLowerCase();
                 if (vastaus.length()==1){
                     vastaus2 = (char) vastaus.charAt(0);
                 } else {
