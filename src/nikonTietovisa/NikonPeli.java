@@ -6,9 +6,9 @@ import nikonTietovisa.kysymykset.Kysymystenlukija;
 
 import java.util.List;
 
-public class Main {
+public class NikonPeli {
 
-    public static void main(String[] args) {
+    public void kaynnista() {
         Kysymystenlukija kys = new Kysymystenlukija();
         List<Kysymys> kysymykset = kys.kysymyslista();
         Kayttoliittyma kl = new Kayttoliittyma(kysymykset);

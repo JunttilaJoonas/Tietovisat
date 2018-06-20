@@ -1,4 +1,4 @@
-//Syötä kysymykset ja vastaukset alla olevan rivin muodossa. Oikea vastaus tulee pilkun jälkeen uudelleen
+ //Syötä kysymykset ja vastaukset alla olevan rivin muodossa. Oikea vastaus tulee pilkun jälkeen uudelleen
 //Päättyykö kysymys kysymysmerkkiin? tietysti, ei ikinä, joskus : joskus
 
 Mikä on meduusa? simpukka, kasvi, joku muu, joku muu
