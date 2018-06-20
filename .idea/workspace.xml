@@ -67,7 +67,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../../Viikko1/ryhmätyöKysymyspeli/src/fi/academy/Kysymysluokka.java" />
+        <option value="$USER_HOME$/Viikko1/ryhmätyöKysymyspeli/src/fi/academy/Kysymysluokka.java" />
         <option value="$PROJECT_DIR$/src/lueKysymykset.java" />
         <option value="$PROJECT_DIR$/src/lueKysymyksetTiedostosta.java" />
         <option value="$PROJECT_DIR$/src/Kysymys.java" />
@@ -135,7 +135,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Käyttöliittymä" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Käyttöliittymä" />
+      <option name="MAIN_CLASS_NAME" value="miikanTietovisa.Käyttöliittymä" />
       <module name="Kysymyspeli" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -373,18 +373,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Viikko1/Harkat16/src/fi/academy/SorttaustaJaSufflausta.java">
+    <entry file="file://$USER_HOME$/Viikko1/Harkat16/src/fi/academy/SorttaustaJaSufflausta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Viikko1/Harjoitus 18/src/fi/academy/StreamHarjoitus1.java">
+    <entry file="file://$USER_HOME$/Viikko1/Harjoitus 18/src/fi/academy/StreamHarjoitus1.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Kysymykset.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Viikko1/ryhmätyöKysymyspeli/src/fi/academy/Kysymysluokka.java">
+    <entry file="file://$USER_HOME$/Viikko1/ryhmätyöKysymyspeli/src/fi/academy/Kysymysluokka.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
