@@ -4,8 +4,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Käyttöliittymä {
-    public static void main(String[] args) {
+public class MiikanPeli {
+    public void kaynnista() {
         List<Kysymys> kysymyssetti = lueKysymyksetTiedostosta.teeKysymyslista("miikanKysymykset.txt");
         Scanner lukija = new Scanner(System.in);
         int pisteet = 0;
