@@ -10,7 +10,7 @@ public class Kysymystenlukija {
 
     public List<nikonTietovisa.kysymykset.Kysymys> kysymyslista() {
         ArrayList<nikonTietovisa.kysymykset.Kysymys> kysymykset = new ArrayList<>();
-        try (Scanner tiedostonLukija = new Scanner(new File("nikonTietovisa.kysymykset.txt"))) {
+        try (Scanner tiedostonLukija = new Scanner(new File("nikonKysymykset.txt"))) {
             while (tiedostonLukija.hasNextLine()) {
                 String kysymys = tiedostonLukija.nextLine();
                 List<String> vastausvaihtoehdot = new ArrayList<>();

@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Käyttöliittymä {
     public static void main(String[] args) {
-        List<Kysymys> kysymyssetti = lueKysymyksetTiedostosta.teeKysymyslista("Kysymykset.txt");
+        List<Kysymys> kysymyssetti = lueKysymyksetTiedostosta.teeKysymyslista("miikanKysymykset.txt");
         Scanner lukija = new Scanner(System.in);
         int pisteet = 0;
         System.out.println("Pelataan hauskaa kysymyspeliä!!\n" +

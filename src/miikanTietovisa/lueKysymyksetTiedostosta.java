@@ -15,7 +15,7 @@ public class lueKysymyksetTiedostosta {
     public static List<Kysymys> teeKysymyslista(String polku) {
 
         List<Kysymys> kysymysLista = new ArrayList<>();
-        try (FileReader fr = new FileReader("Kysymykset.txt");
+        try (FileReader fr = new FileReader("miikanKysymykset.txt");
              BufferedReader br = new BufferedReader(fr)) {
             StringBuilder teksti = new StringBuilder();
             String rivi;

@@ -16,35 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Kysymys.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/joonaksenTietovisa/Kysymys.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Kysymystietokanta.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/joonaksenTietovisa/Kysymystietokanta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-248">
-              <caret line="77" column="64" selection-start-line="77" selection-start-column="64" selection-end-line="77" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="helpotKysymykset.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helpotKysymykset.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="68">
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -82,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lueKysymyksetTiedostosta.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lueKysymyksetTiedostosta.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/miikanTietovisa/lueKysymyksetTiedostosta.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -103,16 +79,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kysymykset.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kysymykset.txt">
+      <file leaf-file-name="miikanKysymykset.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miikanKysymykset.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nikonKysymykset.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nikonKysymykset.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nikonTietovisa/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="136">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kysymystenlukija.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nikonTietovisa/kysymykset/Kysymystenlukija.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -137,6 +131,8 @@
         <option value="$PROJECT_DIR$/src/lueKysymyksetTiedostosta.java" />
         <option value="$PROJECT_DIR$/src/Kysymys.java" />
         <option value="$PROJECT_DIR$/src/Käyttöliittymä.java" />
+        <option value="$PROJECT_DIR$/src/nikonTietovisa/kysymykset/Kysymystenlukija.java" />
+        <option value="$PROJECT_DIR$/src/kysymykset.txt" />
       </list>
     </option>
   </component>
@@ -174,6 +170,12 @@
               <item name="Tietovisa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Tietovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tietovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nikonTietovisa" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -199,11 +201,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Käyttöliittymä" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="miikanTietovisa.Käyttöliittymä" />
       <module name="Kysymyspeli" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joonaksenTietovisa.Main" />
+      <module name="Kysymyspeli" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joonaksenTietovisa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nikonTietovisa.Main" />
+      <module name="Kysymyspeli" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nikonTietovisa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -246,9 +270,16 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.Käyttöliittymä" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Käyttöliittymä" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +303,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13694000" />
+    <option name="totallyTimeSpent" value="14257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -469,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nikonTietovisa/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -483,15 +507,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kysymykset.txt">
+    <entry file="file://$PROJECT_DIR$/miikanKysymykset.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpotKysymykset.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/joonaksenTietovisa/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -622,24 +639,11 @@
     </entry>
     <entry file="file://$USER_HOME$/Viikko1/Harkat16/src/fi/academy/SorttaustaJaSufflausta.java" />
     <entry file="file://$USER_HOME$/Viikko1/Harjoitus 18/src/fi/academy/StreamHarjoitus1.java" />
-    <entry file="file://$PROJECT_DIR$/Kysymykset.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/Viikko1/ryhmätyöKysymyspeli/src/fi/academy/Kysymysluokka.java" />
     <entry file="file://$PROJECT_DIR$/src/miikanTietovisa/Kysymys.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/miikanTietovisa/Käyttöliittymä.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -653,6 +657,47 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpotKysymykset.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miikanTietovisa/Käyttöliittymä.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miikanKysymykset.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nikonKysymykset.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nikonTietovisa/kysymykset/Kysymystenlukija.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nikonTietovisa/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
