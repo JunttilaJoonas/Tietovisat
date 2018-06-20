@@ -1,4 +1,4 @@
- //Syötä kysymykset ja vastaukset alla olevan rivin muodossa. Oikea vastaus tulee pilkun jälkeen uudelleen
+//Syötä kysymykset ja vastaukset alla olevan rivin muodossa. Oikea vastaus tulee pilkun jälkeen uudelleen
 //Päättyykö kysymys kysymysmerkkiin? tietysti, ei ikinä, joskus : joskus
 
 Mikä on meduusa? simpukka, kasvi, joku muu, joku muu
@@ -20,7 +20,7 @@ Onnistuuko tämä? ei onnistu, toivotaan, tietysti, tietysti
 
 Mikä on paras munkki? Omar-munkki , Tunkki-Munkki, Hunkki-Munkki, Hunkki-Munkki
 Mikä on paras auto?  Jakuaari , Volvo ,SuperAuto, Jakuaari
-Kuka voitti kaiken? Sinä  Minä ,Tinä, Sinä
+Kuka voitti kaiken? Sinä,  Minä ,Tinä, Sinä
 
 Kuka tietää kaiken?  Se yks tyyppi, Se toinen tyyppi ,Ei kukaan, Ei kukaan
 Missä on Suomi?  Euroopassa , Venäjällä , Ruotsissa, Euroopassa
@@ -31,6 +31,6 @@ Kuka on Pressa? Donald Trump , Salee se Niinistö, Halonen, Salee se Niinistö
 
 Mikä on kauhein?  Kauhu, HashMap , HashMap se on, HashMap
 
-Viis plus kuus?11 , NullPointerException , ArithmeticException, ArithmeticException
+Viis plus kuus? 11 , NullPointerException , ArithmeticException, ArithmeticException
 
 Kuka on kuuluisa taiteilija?  Juhani Kuusi , Juhani Koivu, Juhani Palmu, Juhani Palmu
