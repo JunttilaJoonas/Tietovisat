@@ -16,11 +16,11 @@ public class Kysymystietokanta {
         this.kysymykset.add(k);
     }
 
-    //luetaan nikonTietovisa.kysymykset tiedostosta ja lisätään ne listalle
+    //luetaan kysymykset tiedostosta ja lisätään ne listalle
     public void lisaaKysymyksetTiedostosta(String tiedosto){
         try (Scanner tiedostonLukija = new Scanner(new File(tiedosto))) {
 
-            // luetaan nikonTietovisa.kysymykset
+            // luetaan kysymykset
             while (tiedostonLukija.hasNextLine()) {
                 // luetaan kysymys ja luodaan sitä vastaava olio
                 String kysymyksenKysymys = tiedostonLukija.nextLine();
@@ -72,8 +72,12 @@ public class Kysymystietokanta {
             System.out.println();
             System.out.print("Vastauksesi (kirjoita vastausta vastaava kirjain): ");
 
+            char kirjain = 'a';
             String vastaus = lukija.nextLine();
-            char kirjain =  vastaus.charAt(0);
+
+            if (vastaus.length()>0) {
+                kirjain =  vastaus.charAt(0);
+            }
 
             if (vastaus.equals("")) System.out.println(laskuri);
 
