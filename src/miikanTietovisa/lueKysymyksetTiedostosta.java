@@ -1,3 +1,5 @@
+package miikanTietovisa;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -13,7 +15,7 @@ public class lueKysymyksetTiedostosta {
     public static List<Kysymys> teeKysymyslista(String polku) {
 
         List<Kysymys> kysymysLista = new ArrayList<>();
-        try (FileReader fr = new FileReader("Kysymykset.txt");
+        try (FileReader fr = new FileReader("miikanKysymykset.txt");
              BufferedReader br = new BufferedReader(fr)) {
             StringBuilder teksti = new StringBuilder();
             String rivi;
