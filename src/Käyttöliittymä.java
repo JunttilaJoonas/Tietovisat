@@ -7,7 +7,7 @@ public class Käyttöliittymä {
         List<Kysymys> kysymyssetti = lueKysymyksetTiedostosta.teeKysymyslista("Kysymykset.txt");
         Scanner lukija = new Scanner(System.in);
         int pisteet = 0;
-        System.out.println("Pelataan hauskaa kysymyspeliä!\n" +
+        System.out.println("Pelataan hauskaa kysymyspeliä!!\n" +
                 "Vastaa yhdellä kirjaimella (a b tai c)\n");
         String[] harmitukset = {"Ei ollut oikein.","Harmillisesti hieman pieleen.","Voi räkä, väärin meni.",
                 "Olisi kannattanut miettiä uudelleen, ei ollut nimittäin oikein.","Nyt ei osunut oikeaan.",
